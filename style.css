@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+. {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-clr: #2c9984;
+    --primary-light: #E7FBBE;
+    --primary-light: #ffd15d;
+}
+
+/* ==============
+   common styles
+================= */
+.bg-clr-light {
+    background-color: #FDFFBC;
+    ;
+}
+
+.text-clr-primary {
+    color: #05bea6;
+}
+
+.button {
+    font-size: 1.1rem;
+    padding: .3em 1em;
+    border-radius: 0.4em;
+    background-image: linear-gradient(180deg, #05bea6, #2c9983ea);
+
+}
+
+.subscribe {
+    padding: 3rem 0;
+}
+
+
+
+.footer {
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color: #072e29;
+}
