@@ -47,6 +47,11 @@ body {
     border-radius: 25px;
     min-width: 30%;
 }
+
+.all-search:focus {
+    box-shadow: none ! important;
+}
+
 .search-button {
     border: 0;
 }
